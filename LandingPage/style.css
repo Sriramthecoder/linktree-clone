@@ -1,0 +1,49 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section one*/
+.section__one {
+  background-color: #254F1A;
+  height: 1000px;
+  width: 100%;
+}
+/* Section two */
+.section__two {
+  background-color: #E9c0E9;
+  height: 1000px;
+  width: 100%;
+}
+/* Section three */
+.section__three {
+  background-color: #780016;
+  height: 1000px;
+  width: 100%;
+}
+/* Section four */
+.section__four {
+  background-color: #E8EFD6;
+  height: 1000px;
+  width: 100%;
+}
+/* Section five */
+.section__five {
+  background-color: #F3F3F1;  
+  height: 2000px;
+  width: 100%;
+}
+/* Section six */
+.section__six {
+  background-color: #780016;
+  height: 1000px;
+  width: 100%;
+}
+/* Section seven */
+.section__seven {
+  background-color: #502274;
+  height: 1000px;
+  width: 100%;
+}

@@ -8,42 +8,116 @@
 /* Section one*/
 .section__one {
   background-color: #254F1A;
-  height: 1000px;
+  height: 1200px;
   width: 100%;
 }
+
 /* Section two */
 .section__two {
   background-color: #E9c0E9;
   height: 1000px;
   width: 100%;
 }
+
 /* Section three */
 .section__three {
   background-color: #780016;
   height: 1000px;
   width: 100%;
 }
+
 /* Section four */
 .section__four {
   background-color: #E8EFD6;
   height: 1000px;
   width: 100%;
 }
+
 /* Section five */
 .section__five {
-  background-color: #F3F3F1;  
+  background-color: #F3F3F1;
   height: 2000px;
   width: 100%;
 }
+
 /* Section six */
 .section__six {
   background-color: #780016;
   height: 1000px;
   width: 100%;
 }
+
 /* Section seven */
 .section__seven {
   background-color: #502274;
   height: 1000px;
   width: 100%;
 }
+
+
+.nav__container {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  right: 70px;
+  height: 90px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 75px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* On scroll */
+.nav__container-on__scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #ffffff;
+  transform: translateY(-30px);
+  transition-delay: 2s; 
+}
+
+/* Title in Naviagtion container*/
+.nav__container .nav__title {
+  color: #1E2330;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+/* Navigation content empty space */
+.nav__container .empty__space {
+  flex-grow: 1;
+}
+
+/* Sign in button*/
+.nav__container .sign-up {
+  color: #FFFFFF;
+  background-color: #1E2330;
+  padding: 10px 20px;
+  border-radius: 75px;
+  font-size: 16px;
+  font-weight:bold;
+  text-decoration: none;
+  height: 70px;
+  width: 160px;
+   margin: 10px 15px;
+}
+
+/* Log in button*/
+.nav__container .log-in {
+  color: black;
+  background-color: #eff0ec;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight:bold;
+  text-decoration: none;
+  height: 70px;
+  width: 100px;
+  border: none;
+}
+
